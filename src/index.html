@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>Spotify</title>
+</head>
+
+<body>
+    <!--navbar-->
+    <header class="fixed">
+        <div class="flex bg-black w-screen h-16 flex-row items-center px-3 md:px-20 py-4 justify-between mx-auto">
+            <div>
+                <a href="#">
+                    <img class="w-20 md:w-125px" src="img/spotify-logo.png" alt="Logo spotify">
+                </a>
+            </div> <!--Logo spotify com link cego-->
+            
+            <div>
+                <i class="fa-solid fa-bars fa-xl text-white md:hidden hover:text-green-main cursor-pointer transition ease-in-out delay-200 duration-300"></i>
+            </div>
+
+            <div class="hidden md:flex text-white flex-1 items-end">
+                <nav class="flex-1">
+                    <ul class="flex flex-row justify-end flex-1 items-center font-bold text-sm">
+                        <li>
+                            <a href="#" class="hover:text-green-main px-4 transition ease-in-out delay-200 duration-300">Premium</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:text-green-main px-4 transition ease-in-out delay-200 duration-300">Ajuda</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:text-green-main px-4 transition ease-in-out delay-200 duration-300">Baixar</a>
+                        </li>
+                        <li>
+                            <span class="border-r border-white"></span>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:text-green-main px-4 transition ease-in-out delay-200 duration-300">Inscrever-se</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:text-green-main px-4 transition ease-in-out delay-200 duration-300">Log In</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--conteudo-->
+    <main>
+        <div class="flex flex-col justify-center text-center py-40 px-4 bg-purple-main
+        bg-spotify-theme-mobile bg-195% md:bg-175% md:bg-spotify-theme text-green-main">
+            <h1 class="leading-none text-5xl md:text-9xl font-bold mb-10 mx-auto max-w-4xl">
+                Escutar muda tudo
+            </h1>
+            <p class="md:text-lg mb-10">
+                Milhões de músicas e podcasts para explorar. E nem precisa de cartão de crédito.
+            </p>
+            <a href="#" class="uppercase text-purple-main bg-hoverspt
+             px-10 py-3 mx-auto tracking-widest flex flex-row 
+             items-center justify-center rounded-full font-bold 
+             text-sm hover:bg-white transition ease-in-out 
+             delay-200 duration-300">
+                Obtenha o Spotify Free
+            </a>
+        </div>
+    </main>
+    <!--footer-->
+</body>
+
+</html>

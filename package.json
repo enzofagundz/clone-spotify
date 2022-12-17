@@ -1,0 +1,25 @@
+{
+  "name": "clone-spotify",
+  "version": "1.0.0",
+  "description": "Projeto realizado durante o curso de TailwindCSS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enzofagundz/clone-spotify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enzofagundz/clone-spotify/issues"
+  },
+  "homepage": "https://github.com/enzofagundz/clone-spotify#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4"
+  }
+}
